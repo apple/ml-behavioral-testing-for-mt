@@ -12,4 +12,4 @@ It includes the following:
 
 If you use this dataset, please cite our paper as follows:
 
-Javier Ferrando, Matthias Sperber, Hendra Setiawan, Dominic Telaar, Saša Hasan (2023). **Automating Behavioral Testing in Machine Translation.** _Conference on Empirical Methods in Natural Language Processing (EMNLP)._
+Javier Ferrando, Matthias Sperber, Hendra Setiawan, Dominic Telaar, Saša Hasan (2023). **Automating Behavioral Testing in Machine Translation.** _Conference on Machine Translation (WMT)._
