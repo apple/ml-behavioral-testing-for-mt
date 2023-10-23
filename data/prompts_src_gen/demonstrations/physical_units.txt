@@ -1,0 +1,3 @@
+The Eiffel Tower is 1083 [feet] tall.
+We typically inspect fabrics at the rate of 50 [yards per minute].
+John Isner holds the record for the fastest serve at 253 [km/h].

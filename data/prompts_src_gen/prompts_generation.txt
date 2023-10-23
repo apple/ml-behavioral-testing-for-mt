@@ -1,0 +1,72 @@
+prompt_numbers_integer = [
+        {"role": "system", "content":f'''You are an assistant that generates sentences where only appears one B: a large integer number.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain an integer number.'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more diverse sentences itemizing them with '-':"}
+        ]
+
+prompt_numbers_decimal = [
+        {"role": "system", "content":f'''You are an assistant that generates sentences where only appears one B: a float number with non-zero decimals in the "aaa,aaa.ddd" format.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain a float number.'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more diverse sentences itemizing them with '-':"}
+        ]
+
+prompt_currencies = [
+        {"role": "system", "content":f'''You are an assistant that generates sentences where only appears one B: a currency ISO code.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain a currency.'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
+prompt_numbers_large = [
+    {"role": "system", "content":f'''You are an assistant that generates sentences containing one B: a large number with "million", "billion" or "trillion".
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain a large number.'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
+prompt_web_terms = [
+    {"role": "system", "content":f'''You are an assistant that generates sentences containing one B: a fake web address.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain a web address.'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
+prompt_physical_units = [
+    {"role": "system", "content":f'''You are an assistant that generates sentences containing one B: physical unit.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain a physical unit. Enclose the whole phyisical unit inside [].'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
+prompt_emoji = [
+    {"role": "system", "content":f'''You are an assistant that generates sentences containing one B: emoji.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain an emoji.'''},
+        {"role": "user", "content": 'Write 3 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
+prompt_idioms = [
+    {"role": "system", "content":f'''You are an assistant that generates sentences containing one B: an idiomatic expression.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain an idiomatic expression.'''},
+        {"role": "user", "content": 'Write 2 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
+prompt_names = [
+    {"role": "system", "content":f'''You are an assistant that generates sentences containing one B: a person's name.
+Don't be repetitive, change the topic and B between sentences. Write every B inside []. B must happen only once in each sentence and can only contain a person's name.'''},
+        {"role": "user", "content": 'Write 2 examples.'},
+        {"role": "assistant", "content": f"\n {prompt_examples}"},
+        {"role": "user", "content": f"Now write {number_sentences} more sentences itemizing them with '-':"}
+        ]
+
